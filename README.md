@@ -42,54 +42,25 @@ Support for 40+ quantization formats including:
 ## Screenshots
 
 ### Main Interface
-```
-┌─────────────────────────────────────────────┐
-│  Model Quantizer & Uploader                 │
-├─────────────────────────────────────────────┤
-│  File Name: [model-name________________]    │
-│  Author:    [your-name________________]     │
-│  Repository:[username/repo-name_______]     │
-│  Base Path: [/path/to/models__________] [📁] │
-│  Venv Path: [/path/to/venv____________] [📁] │
-│                                             │
-│  ☑ Enable automatic upload after quantization │
-│                                             │
-│  ┌── Select Quantizations ─────────────────┐ │
-│  │ ☑BF16   ☐F32    ☑Q8_0   ☐Q6_K        │ │
-│  │ ☑Q5_0   ☐Q5_1   ☐Q5_K   ☐Q5_K_S      │ │
-│  │ ☑Q4_0   ☐Q4_1   ☐Q4_K   ☐Q4_K_S      │ │
-│  │ ☐IQ4_XS ☐IQ3_M  ☐IQ2_S  ☐TQ1_0  ... │ │
-│  │ [Select All] [Deselect All] [Common]   │ │
-│  └─────────────────────────────────────────┘ │
-│                                             │
-│  [Start Processing] [Stop] [Clear Log]     │
-│  ████████████████████████████████████████  │
-│                                             │
-│  Log Output:                                │
-│  ┌─────────────────────────────────────────┐ │
-│  │ Starting processing...                  │ │
-│  │ --- Processing BF16 ---                 │ │
-│  │ Successfully created BF16 version       │ │
-│  │ Successfully uploaded BF16 version      │ │
-│  └─────────────────────────────────────────┘ │
-└─────────────────────────────────────────────┘
-```
+<img width="796" height="729" alt="image" src="https://github.com/user-attachments/assets/7198d752-39eb-4544-887c-db8ab8cee154" />
+
 
 ## Installation
 
 ### Prerequisites
-- Python 3.7 or higher
+- Python 3.11 or higher
 - tkinter (usually included with Python)
 - Required tools in your `tools/` directory:
   - `convert.py` - Model conversion script
   - `llama-quantize.exe` - GGUF quantization tool
   - `convert_fp8_scaled_stochastic.py` - FP8 conversion script
 - Hugging Face CLI configured with authentication
+- There is an included batch file for installing the tools.
 
 ### Setup
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/model-quantizer-gui.git
+git clone  https://github.com/marduk191/Diffusion_model_Quantize_and_upload_gui.git
 cd model-quantizer-gui
 ```
 
