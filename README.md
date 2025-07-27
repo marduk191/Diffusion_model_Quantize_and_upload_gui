@@ -65,6 +65,7 @@ cd model-quantizer-gui
 ```
 
 2. Install dependencies:
+   This will run in your comfyui venv.
 ```bash
 pip install tkinter  # If not already available
 ```
