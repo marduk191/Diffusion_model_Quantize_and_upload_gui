@@ -1,0 +1,7 @@
+Credits:
+
+City96: https://github.com/city96/ComfyUI-GGUF/blob/main/tools/convert.py
+Clybius: https://huggingface.co/Clybius/Chroma-fp8-scaled/blob/main/convert_fp8_scaled_stochastic.py
+rainlizard: https://github.com/rainlizard/EasyQuantizationGUI
+SilverOxides for this snippet (forked to freeze)https://gist.github.com/marduk191/d0f6285e73fd4615e2fe3d61bd24ea42
+

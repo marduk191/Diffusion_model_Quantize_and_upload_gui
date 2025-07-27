@@ -1,0 +1,43 @@
+# Model Quantizer & Uploader GUI Requirements
+# Core Python GUI library (usually included with Python)
+# tkinter - Built into Python standard library
+
+# Hugging Face utilities for model upload/download
+huggingface_hub>=0.16.0
+
+# Path manipulation and file operations (built into Python 3.4+)
+# pathlib - Built into Python standard library
+
+# Process management and system operations (built into Python)
+# subprocess - Built into Python standard library
+
+# Threading support (built into Python)
+# threading - Built into Python standard library
+
+# Operating system interface (built into Python)
+# os - Built into Python standard library
+
+# System-specific parameters and functions (built into Python)
+# sys - Built into Python standard library
+
+# Optional: Enhanced file dialog support
+# Note: tkinter.filedialog is part of tkinter, no separate install needed
+
+# Development and testing dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
+
+# Note: This application primarily uses Python standard library modules.
+# The main external dependency is huggingface_hub for uploading models.
+# 
+# Additional tools required (not Python packages):
+# - llama-quantize.exe (from llama.cpp project)
+# - convert.py (custom conversion script)
+# - convert_fp8_scaled_stochastic.py (custom FP8 conversion script)
+#
+# System requirements:
+# - Python 3.7+
+# - Windows OS (for llama-quantize.exe)
+# - Sufficient RAM for model processing
+# - Disk space for quantized model outputs
