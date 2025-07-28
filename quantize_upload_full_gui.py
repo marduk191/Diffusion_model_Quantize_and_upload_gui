@@ -275,7 +275,7 @@ class ModelQuantizerGUI:
             basepath = Path(self.basepath.get().strip())
             
             # Setup paths
-            input_path = basepath / "in" / "chroma" / "detailed" / f"{fname}.safetensors"
+            input_path = basepath / "in" / f"{fname}.safetensors"
             output_dir = basepath / "out" / fname
             output_base = output_dir / fname
             tools_dir = basepath / "tools"
